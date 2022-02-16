@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #2F2FA2;
+    padding: 10px;   
+}
+
+body > header {
+    flex-flow: row nowrap;
+}
+
+img{
+    width:220px;
+    border-radius: 50%;
+    border: dashed;
+}
+#MyList{
+    padding-right: 0%;
+    color:white;
+    text-align: right;
+    letter-spacing: 40px;
+    padding-top: 50px;
+    padding-right: 100px;
+    font-family: 'Fredoka One', cursive;
+
+} 
+/* I need to fix the MyList, since it#s not appearing in the header */
+
+.fixed-header {
+    
+    color: #fff;
+    padding: 20px 25px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+body{     
+       
+}
+
+
+
+
+.fixed-footer{
+    bottom: 0;
+    color: #fff;
+    
+} 
