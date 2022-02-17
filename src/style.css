@@ -2,8 +2,7 @@
 
 
 .fixed-header, .fixed-footer{
-    width: 100%;
-    position: fixed;        
+    width: 100%;       
     background: #2F2FA2;
     padding: 10px;   
 }
@@ -18,12 +17,9 @@ img{
     border: dashed;
 }
 #MyList{
-    padding-right: 0%;
     color:white;
-    text-align: right;
-    letter-spacing: 40px;
-    padding-top: 50px;
-    padding-right: 100px;
+    text-align: center;
+    letter-spacing: 30px;
     font-family: 'Fredoka One', cursive;
 
 } 
@@ -42,9 +38,6 @@ img{
 body{     
        
 }
-
-
-
 
 .fixed-footer{
     bottom: 0;
