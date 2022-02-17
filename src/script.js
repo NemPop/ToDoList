@@ -7,7 +7,7 @@
 
 
 
-/*
+/*Steffani code*/
 const form = document.querySelector("form");
 
 form.addEventListener("submit", (e) => {
@@ -16,6 +16,9 @@ form.addEventListener("submit", (e) => {
   });
 
 
-Steffani code*/
+/*Steffani code*/
+
+
+
 
 /*Nett code*/

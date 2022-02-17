@@ -1,5 +1,6 @@
+/*----- font link in css-------*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+/*----- font link in css-------*/
 
 .fixed-header, .fixed-footer{
     width: 100%;       
@@ -26,12 +27,10 @@ img{
 /* I need to fix the MyList, since it#s not appearing in the header */
 
 .fixed-header {
-    
     color: #fff;
     padding: 20px 25px;
     display:flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 
@@ -39,8 +38,55 @@ body{
        
 }
 
+.p {background: rgb(232, 119, 54)32);
+    background: linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
+    color: #fff;
+    border-radius: 0;
+    margin: 30px 70px;
+    padding: 20px 40px;
+    text-align: center; 
+}
+
+
+
+/*----------Krupa's code-------------*/
+/*
+.container {
+    padding: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  form {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form input,
+  from button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: orange;
+  }
+  form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    color: blue;
+    background: orange;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  */
+  /*----------Krupa's code-------------*/
+
 .fixed-footer{
     bottom: 0;
     color: #fff;
+    padding-top: 60px;
     
+
 } 
