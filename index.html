@@ -30,12 +30,13 @@
         <div class="p text-center p-5">
             <h1>Let's create your ToDo list, in an easier way possible!</h1>
         </div>
+
+        <!------------Steffani - TESTING code--------------->
         <div class=" text-center mb-5">
 
-            <form id="Form-row">
-                <input type="text" name="desc" />
+            <form id="Form-row" action="javascript:void(0);" method="POST" onsubmit="todo.Create()">
+                <input type="text" name="desc" id="add-todo"/>
                 <select name="status" id="priority-select">
-                  <option value="">Level of Priority</option>
                   <option value="Urgent">Urgent</option>
                   <option value="Important">Important</option>
                   <option value="NotImportant">Not Important</option>
@@ -46,44 +47,17 @@
         </div> 
 
         <hr>
-<!------------Krupa's code--------------->
-        <form>
-            <input type="text" class="todo-task" />
-            <button class="todo-button-add" type="submit">
-              <i class="fa-solid fa-circle-plus"></i>
-            </button>
-         </form>
-          <div class="todo-container">
-            <ul class="todo-list">
-               <div class="todo">
 
-                <li></li>
-                <button>priority</button>
-                <button>check</button>
-                <button>delete</button>
-                <button>edit</button>
-
-               </div>
-            </ul>
-          </div>
-       
-<!------------Krupa's code--------------->
-
-
-
-
-
-
-
-    
-   
+        <table>
+            <tbody id="table-todo"></tbody>
+        </table>
     </main>
+        <!------------Steffani - TESTING code--------------->
+
     <footer>
         <div class="fixed-footer container-fluid fixed-bottom">
             <div class=" justify-content-center flex-wrap row">Copyright &copy; 2022 NKS ToDo List</div>        
         </div>
-
-
     </footer>
 
     <!------------script JavaCript & js Bootstrap--------------->
