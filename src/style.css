@@ -48,40 +48,12 @@ body{
 }
 
 
+/*----------TESTING code-------------*/
 
-/*----------Krupa's code-------------*/
-/*
-.container {
-    padding: 230px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  form {
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  form input,
-  from button {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: none;
-    background: orange;
-  }
-  form button {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: none;
-    color: blue;
-    background: orange;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  */
-  /*----------Krupa's code-------------*/
+
+
+
+/*----------TESTING code-------------*/
 
 .fixed-footer{
     bottom: 0;
