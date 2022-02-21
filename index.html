@@ -25,34 +25,53 @@
             <div id="LogoGif" class="d-flex"><img src="https://thumbs.gfycat.com/CleanFamousDwarfmongoose-max-1mb.gif" alt="SEO Gif"></div>
             <div id="MyList" class="align-items-center d-flex"><h1>My List</h1></div> 
         </div>
+        
     </header>
     <main>
         <div class="p text-center p-5">
             <h1>Let's create your ToDo list, in an easier way possible!</h1>
         </div>
 
-        <!------------Steffani - TESTING code--------------->
         <div class=" text-center mb-5">
+            <section class="task-block">
+                <h1>My tasks for 2022</h1>
+                <form id="new-task-form">
+                    <input 
+                      type="text"
+                      id="new-task-input"
+                      placeholder="What do you have planned?"/>
+                    <input 
+                      type="submit"
+                      id="new-task-submit"
+                      value="Add task"/>
+                </form>
+            </section>
+        </div>
 
-            <form id="Form-row" action="javascript:void(0);" method="POST" onsubmit="todo.Create()">
-                <input type="text" name="desc" id="add-todo"/>
-                <select name="status" id="priority-select">
-                  <option value="Urgent">Urgent</option>
-                  <option value="Important">Important</option>
-                  <option value="NotImportant">Not Important</option>
-                </select>
-                <input type="submit" value="Submit" />
-            </form>
-  
-        </div> 
+        <div class=" text-left mb-5"> <!-- We need to make the task rows inline with Bootstrap-->
+            <section class="task-list">
+                <h2>Task's list</h2>
+                <div id="tasks">
+ <!--                  <div class="task">
+                        <div class="content">
+                            <input 
+                              type="text"
+                              class="text"
+                              value=""                            
+                              />
+                        </div>
+                        <div class="actions">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </div>
+                    </div>
+-->                    
+                </div>
+     
+            </section>
+        </div>
+    </main>        
 
-        <hr>
-
-        <table>
-            <tbody id="table-todo"></tbody>
-        </table>
-    </main>
-        <!------------Steffani - TESTING code--------------->
 
     <footer>
         <div class="fixed-footer container-fluid fixed-bottom">
