@@ -1,6 +1,6 @@
-/*----- font link in css-------*/
+/*-------------- font link in css-----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-/*----- font link in css-------*/
+/*-------------- font link in css-----------------*/
 
 .fixed-header, .fixed-footer{
     width: 100%;       
@@ -24,7 +24,6 @@ img{
     font-family: 'Fredoka One', cursive;
 
 } 
-/* I need to fix the MyList, since it#s not appearing in the header */
 
 .fixed-header {
     color: #fff;
@@ -33,12 +32,10 @@ img{
     justify-content: space-between;   
 }
 
+/*---------------------BODY code---------------------*/
 
-body{     
-       
-}
-
-.p {background: rgb(232, 119, 54)32);
+.p {
+    background: rgb(228, 133, 79)32);
     background: linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
     color: #fff;
     border-radius: 0;
@@ -48,12 +45,40 @@ body{
 }
 
 
-/*----------TESTING code-------------*/
+input, button {
+    appearance: none;
+    background:none;
+    border-radius: 1.2rem;
+}
+
+
+
+/*Defining a root varible <var(--color)>for the colors 
+in CSS for the main*/
+:root { 
+    --darkpurple: #242582;
+    --darkpink: #553D67;
+    --pink: #f6574c;
+    --lightpink: #99738E;
+    --darkblue: #2F2FA2;
+    --light: #fff;  
+}
+/*Defining a root varible for the colors 
+in CSS for the main. Only if the style will happen in CSS, not Bootstrap*/
+
+.body {
+    box-sizing: border-box;
+
+}
 
 
 
 
-/*----------TESTING code-------------*/
+
+
+/*-------------------BODY code------------------------*/
+
+/*-------------------FOOTER code----------------------*/
 
 .fixed-footer{
     bottom: 0;
