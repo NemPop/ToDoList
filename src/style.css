@@ -36,22 +36,28 @@ img{
 
 .p {
     background: rgb(228, 133, 79)32);
-    background: linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
-    color: #fff;
-    border-radius: 0;
-    margin: 30px 70px;
-    padding: 20px 40px;
-    text-align: center; 
+    background : linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
+    color : #fff;
+    border-radius : 0;
+    margin : 30px 70px;
+    padding : 20px 40px;
+    text-align : center; 
 }
 
 
 input, button {
     appearance: none;
     background:none;
-    border-radius: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
 }
-
-
+#new-task-input {
+    width: 400px;
+    padding: 10px;
+}
+#new-task-submit {
+    padding: 10px;
+}
 
 /*Defining a root varible <var(--color)>for the colors 
 in CSS for the main*/
