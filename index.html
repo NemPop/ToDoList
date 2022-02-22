@@ -28,7 +28,7 @@
   </head>
   <body>
     <header>
-      <div class="fixed-header justify-content-around flex-wrap flex-row">
+      <div class="fixed-header justify-content-around flex-wrap flex-row sticky-top">
         <div id="LogoGif" class="d-flex">
           <img
             src="https://thumbs.gfycat.com/CleanFamousDwarfmongoose-max-1mb.gif"
@@ -50,6 +50,7 @@
           <h1>Todo's in 2022</h1>
           <form id="new-task-form">
             <input
+              class="container-fluid"
               type="text"
               id="new-task-input"
               placeholder="What do you have planned?"
@@ -84,7 +85,7 @@
     </main>
 
     <footer>
-      <div class="fixed-footer container-fluid fixed-bottom">
+      <div class="fixed-footer container-fluid sticky-bottom">
         <div class="justify-content-center flex-wrap row">
           Copyright &copy; 2022 NKS ToDo List
         </div>

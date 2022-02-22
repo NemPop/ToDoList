@@ -35,7 +35,7 @@ img{
 /*---------------------BODY code---------------------*/
 
 .p {
-    background: rgb(228, 133, 79)32);
+    background: rgb(228, 133, 79);
     background : linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
     color : #fff;
     border-radius : 0;
@@ -57,6 +57,18 @@ input, button {
 }
 #new-task-submit {
     padding: 10px;
+}
+/*For new task bar with edit and delete button*/
+.task{
+    
+}
+/*this is input*/
+.content{
+    padding:5px;
+}
+/*edit button which is part of actions*/
+.actions .edit{
+    margin: 5px;
 }
 
 /*Defining a root varible <var(--color)>for the colors 
@@ -90,6 +102,4 @@ in CSS for the main. Only if the style will happen in CSS, not Bootstrap*/
     bottom: 0;
     color: #fff;
     padding-top: 60px;
-    
-
 } 
