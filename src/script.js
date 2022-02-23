@@ -28,6 +28,14 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
 
       task_el.appendChild(task_content_el);
 
+      const task_check_el = document.createElement("input");
+      task_check_el.type = 'checkbox';
+      task_check_el.classList.add("check");
+      task_check_el.classList.add("d-inline");
+      
+      task_content_el.appendChild(task_check_el);
+     
+
       const task_input_el = document.createElement("input");
       task_input_el.classList.add("text");
       task_input_el.type = "text";
@@ -35,6 +43,7 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
       task_input_el.setAttribute("readony", "readonly");
 
       task_content_el.appendChild(task_input_el);
+
 
       const task_actions_el = document.createElement("div");
       task_actions_el.classList.add("actions");
@@ -76,6 +85,11 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
       task_delete_el.addEventListener('click', () =>{
          list_el.removeChild(task_el);
       });
+       
+  task_check_el.addEventListener('click', function() {
+    task_input_el.style.textDecoration = task_check_el.checked ? 'line-through' : 'none';
+    task_check_el.style.color = 'blue';
+  });
 
       //button's creation-----------------------------------
     });
