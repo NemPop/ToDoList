@@ -62,6 +62,10 @@ button {
 }
 #new-task-submit {
   padding: 10px;
+  background-color: #99738e;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
 }
 /*For new task bar with edit and delete button*/
 .task {
@@ -82,8 +86,16 @@ input.check {
   padding: 10px;
   height: 20px;
   width: 30px;
-  border: 1px solid black;
+  border: 2px solid #242582;
   border-radius: 0.5rem;
+}
+.delete {
+  background-color: #f6574c;
+  color: white;
+}
+.edit {
+  background-color: #553d67;
+  color: white;
 }
 
 /*Defining a root varible <var(--color)>for the colors 
