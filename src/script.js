@@ -9,8 +9,9 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
 
     form.addEventListener('submit', (e) => {
       e.preventDefault(); // by default the page refreshes all the time, so to prevent that we need to use this function
-
+     
       const task = input.value;
+      
 
       if (!task) { // if not(!)input task shows the alert below
         alert("Please fill out the task!");
@@ -57,6 +58,7 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
 
       const task_delete_el = document.createElement("button");
       task_delete_el.appendChild(task_el);
+      task_delete_el.classList.add("delete");
       task_delete_el.innerHTML = "Delete";
       task_delete_el.classList.add("d-inline")
 
