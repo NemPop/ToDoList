@@ -40,6 +40,7 @@ window.addEventListener ('load',()=> { //Add an event listener that fires when a
       task_input_el.classList.add("text");
       task_input_el.type = "text";
       task_input_el.value = task;
+      task_input_el.autocomplete = "off";
       task_input_el.setAttribute("readony", "readonly");
 
       task_content_el.appendChild(task_input_el);
