@@ -1,105 +1,114 @@
 /*-------------- font link in css-----------------*/
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 /*-------------- font link in css-----------------*/
 
-.fixed-header, .fixed-footer{
-    width: 100%;       
-    background: #2F2FA2;
-    padding: 10px;   
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  background: #2f2fa2;
+  padding: 10px;
 }
 
 body > header {
-    flex-flow: row nowrap;
+  flex-flow: row nowrap;
 }
 
-img{
-    width:220px;
-    border-radius: 50%;
-    border: dashed;
+img {
+  width: 220px;
+  border-radius: 50%;
+  border: dashed;
 }
-#MyList{
-    color:white;
-    text-align: center;
-    letter-spacing: 30px;
-    font-family: 'Fredoka One', cursive;
-
-} 
+#MyList {
+  color: white;
+  text-align: center;
+  letter-spacing: 30px;
+  font-family: "Fredoka One", cursive;
+}
 
 .fixed-header {
-    color: #fff;
-    padding: 20px 25px;
-    display:flex;
-    justify-content: space-between;   
+  color: #fff;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*---------------------BODY code---------------------*/
 
 .p {
-    background: rgb(228, 133, 79);
-    background : linear-gradient(90deg, rgb(216, 114, 55) 0%, rgba(9,9,121,1) 52%, rgba(153,115,142,1) 100%);
-    color : #fff;
-    border-radius : 0;
-    margin : 30px 70px;
-    padding : 20px 40px;
-    text-align : center; 
+  background: rgb(228, 133, 79);
+  background: linear-gradient(
+    90deg,
+    rgb(216, 114, 55) 0%,
+    rgba(9, 9, 121, 1) 52%,
+    rgba(153, 115, 142, 1) 100%
+  );
+  color: #fff;
+  border-radius: 0;
+  margin: 30px 70px;
+  padding: 20px 40px;
+  text-align: center;
 }
 
-
-input, button {
-    appearance: none;
-    background:none;
-    border-radius: 0.5rem;
-    border: 1px solid black;
+input,
+button {
+  appearance: none;
+  background: none;
+  border-radius: 0.5rem;
+  border: 1px solid black;
 }
 #new-task-input {
-    width: 400px;
-    padding: 10px;
+  width: 400px;
+  padding: 10px;
 }
 #new-task-submit {
-    padding: 10px;
+  padding: 10px;
 }
 /*For new task bar with edit and delete button*/
-.task{
-    
+.task {
 }
 /*this is input*/
-.content{
-    padding:5px;
+.content {
+  padding: 5px;
 }
 /*edit button which is part of actions*/
-.actions .edit{
-    margin: 5px;
+.actions .edit {
+  margin: 5px;
+}
+
+input.check {
+  appearance: auto;
+  background: auto;
+  margin: 0px 5px;
+  padding: 10px;
+  height: 20px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 0.5rem;
 }
 
 /*Defining a root varible <var(--color)>for the colors 
 in CSS for the main*/
-:root { 
-    --darkpurple: #242582;
-    --darkpink: #553D67;
-    --pink: #f6574c;
-    --lightpink: #99738E;
-    --darkblue: #2F2FA2;
-    --light: #fff;  
+:root {
+  --darkpurple: #242582;
+  --darkpink: #553d67;
+  --pink: #f6574c;
+  --lightpink: #99738e;
+  --darkblue: #2f2fa2;
+  --light: #fff;
 }
 /*Defining a root varible for the colors 
 in CSS for the main. Only if the style will happen in CSS, not Bootstrap*/
 
 .body {
-    box-sizing: border-box;
-
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 /*-------------------BODY code------------------------*/
 
 /*-------------------FOOTER code----------------------*/
 
-.fixed-footer{
-    bottom: 0;
-    color: #fff;
-    padding-top: 60px;
-} 
+.fixed-footer {
+  bottom: 0;
+  color: #fff;
+  padding-top: 60px;
+}
